@@ -1,3 +1,3 @@
-# Programmers-Coding-Test
+# 기록하자
 
-Programmers Coding Test Practice
+
