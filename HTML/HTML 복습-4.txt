@@ -17,4 +17,53 @@ HTML 의 모든 요소는 어떻게 보이는지 display 라는 속성을 가진
 <div> : 주로 여러 요소들의 스타일을 한 번에 적용하기 위함
 <span> : 주로 텍스트의 특정 부분에 스타일을 적용하기 위함
 
-============================================
+@iframe=======================================
+
+<iframe src="/index" name="frame_target"></iframe>
+    <a href="/login" target="frame_target">전환하기</a>
+
+iframe : inline frame 의 약자
+※ 해당 웹사이트에 또 다른 페이지를 삽입 가능
+※ 명시된 크기로 크기가 고정됨.
+
+전환하기 글씨를 누르면 iframe 창에서 login 페이지로 전환된다.
+
+프레임셋 : 여러 창의 프레임창을 표시할 수 있다.
+HTML5 표준 권고안에서 지원하지 않음. 패쓰
+
+@레이아웃=====================================
+
+외관에 매우 결정적인 영향을 끼친다.
+
+※ HTML5 에서 제공하는 레이아웃 전용 의미(semantic) 요소들
+<header> : HTML 문서, 섹션 부분에 대한 헤더를 정의
+<nav> : 탐색 링크를 정의
+<section> : 섹션(section) 부분을 정의
+<article> : 독립적인 하나의 글(article) 부분을 정의
+<aside> : 페이지 부분 이외의 콘텐츠(content)를 정의
+<footer> : HTML 문서, 섹션 부분에 대한 푸터를 정의
+
+
+@form 요소====================================
+
+<form action="처리페이지 주소" method="get | post">
+	<input type="text" name="search" value="">
+</form>
+
+사용자로부터 입력을 받을때 사용
+action : 데이터를 처리할 서버 상의 스크립트 파일의 주소를 명시
+method : 전달 방식 설정 [get 또는 post]
+
+※ input type
+text : 한 줄의 텍스트
+password : 입력값이 *** 처럼 표시됨
+radio : 한개만 선택, value 값이 전송 (같은 name속성 내) [checked]
+checkbox : 복수 선택 가능 (같은 name속성 내) [checked,disabled]
+file : 파일 입력 가능 (accpet 속성으로 확장자 명시 가능)
+select name="1" : 드롭다운 리스트 중 1개 (option value="공부")
+textarea : 여러 줄의 텍스트 [rows,cols]
+button : 버튼
+submit : 데이터를 action속성의 주소의 서버 측 폼 핸들러로 전송
+
+<fieldset> : 하나로 묶어주는[테두리같은] 역할.
+<legend> : 필드셋 내에서 사용, 필드셋의 제목 역할
