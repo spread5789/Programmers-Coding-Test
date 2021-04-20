@@ -17,8 +17,8 @@ class Solution {
         // 2.방문 시작
         for(int y=0;y<visited.length;y++) {
             for (int x = 0; x < visited[y].length; x++) {
-                int sum = check(y, x, visited, visited[y][x]);
                 // 모두 탐색 후 sum이 각 영역크기를 가져온다.
+                int sum = check(y, x, visited, visited[y][x]);
 
                 // 문제에서 요구하는것은 각 영역들의 크기가 아니라 몇개의 영역인지
                 if (sum > 0) numberOfArea++;
