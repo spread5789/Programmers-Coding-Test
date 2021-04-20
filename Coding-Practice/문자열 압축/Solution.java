@@ -1,7 +1,7 @@
 class Solution {
     public int solution(String s) {
         
-        //문자는 아니지만 손에 익는 단어이므로 문자로 했습니다.. (just 여러개의 문자)
+        //문자는 아니지만 손에 익는 단어이므로 문자로 설명했습니다.. (just 여러개의 문자)
         
         // 입력 문자가 1개일 경우 뺨 때리고 돌려보내기
         if(s.length()==1) return 1;
