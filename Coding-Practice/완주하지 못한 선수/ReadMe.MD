@@ -1,4 +1,4 @@
-후기
+회고
 ==
 ### ArrayList
 처음 접근방식은 ArrayList / contains 를 활용하여 값을 가지고 있을 경우   

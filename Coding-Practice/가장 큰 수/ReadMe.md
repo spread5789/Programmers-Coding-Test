@@ -3,7 +3,7 @@
 ==
 ![6](https://user-images.githubusercontent.com/73854324/115188852-80641480-a120-11eb-8ee7-6bcc5234a393.PNG)
 <br><br>
-리뷰
+회고
 ==
 <br>
 
