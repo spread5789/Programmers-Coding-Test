@@ -3,7 +3,7 @@
 ![1](https://user-images.githubusercontent.com/73854324/115923503-4a74b680-a4b9-11eb-8c81-38e5179b9240.PNG)
 
 <br><br>
-회고
+
 ==
 쉬운문제다.
 길이가 8인 "abcdefgh" 문자가 들어올 경우에는   
