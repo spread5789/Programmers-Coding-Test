@@ -3,8 +3,8 @@
 ![1](https://user-images.githubusercontent.com/73854324/116533757-b7a2a480-a91c-11eb-9e28-ce6a3fe3e840.PNG)
 ![2](https://user-images.githubusercontent.com/73854324/116533761-b8d3d180-a91c-11eb-923e-587bdaa9f64f.PNG)
 <br><br>
-
 ==
+
 문제는 도감번호로 생각하면 쉽다.   
 같은 종류의 폰켓몬은 뽑을 수 없다.   
    
