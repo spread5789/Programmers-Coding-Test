@@ -17,7 +17,7 @@ class Solution {
     
     
     public void dfs(int n, String[] data, int deep){
-        if(deep == n){
+        if(deep == name.length){
             if(checkCondition(position, data, n))
                 answer++;
             return ;
@@ -45,7 +45,7 @@ class Solution {
             char compare = data[i].charAt(3);
             int condition = data[i].charAt(4)-'0';
             
-            for(int j=0;j<data.length;j++){
+            for(int j=0;j<n;j++){
                 if(position[j] == a) a_idx = j;
                 if(position[j] == b) b_idx = j;
             }
