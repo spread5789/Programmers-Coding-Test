@@ -21,7 +21,8 @@ class Solution {
         }
     }
     
-
+    // edgeList = 각 노드[마을]을 담아줄 리스트
+    // distance = 각 마을까지의 거리 가중치를 저장할 배열
     public int solution(int N, int[][] road, int K) {
         int answer = 0;
         
@@ -31,14 +32,14 @@ class Solution {
         for (int i = 1; i <= N; i++) {
             edgeList[i] = new ArrayList<>();
         }
+        // 각 마을들의 거리정보 저장
         for (int i = 0; i < road.length; i++) {
             edgeList[road[i][0]].add(new Edge(road[i][1], road[i][2]));
             edgeList[road[i][1]].add(new Edge(road[i][0], road[i][2]));
         }
-        distance[1] = 0; //1번 마을 자기자신
-        
+        distance[1] = 0; //1번 마을 자신
+        //다익스트라
         dijkstra();
-        
         // 1번마을에서 K 이하 비용인 도시 개수 구하기
         for (int cost : distance) {
             if (cost <= K) {
@@ -49,7 +50,7 @@ class Solution {
     }
     
 
-    // 다익스트라
+
     private static void dijkstra() {
         PriorityQueue<Edge> queue = new PriorityQueue<>();
         queue.add(new Edge(1, 0));
@@ -59,7 +60,7 @@ class Solution {
             int vertex = edge.vertex;
             int weight = edge.weight;
             
-            // 기존에 설정된 거리가 더 짧다면 갱신하지 않는다. (continue)
+            // 기존 거리가 더 짧다면 거리를 새로 갱신하지 않는다.
             if (distance[vertex] < weight) continue;
             
             for (int i = 0; i < edgeList[vertex].size(); i++) { // 연결 마을 탐색
@@ -72,7 +73,5 @@ class Solution {
             }
         }
     }
-
-
 
 }
