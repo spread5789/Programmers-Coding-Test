@@ -1,5 +1,8 @@
 // 프로그래머스 순위 검색 문제
 // https://wellbell.tistory.com/104
+//
+// 이것 먼저 공부해보기
+// https://velog.io/@courage331/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4Java-%EC%88%9C%EC%9C%84%EA%B2%80%EC%83%89#%EB%AC%B8%EC%A0%9C-%ED%92%80%EC%9D%B4
 
 /*
 
