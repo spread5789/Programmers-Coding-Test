@@ -3,7 +3,7 @@ class Solution {
 
     public int[] solution(String[] info, String[] query) {
         int[] answer = new int[info.length];
-        
+
         for(int z=0;z<info.length;z++){
             // 지원자 정보 (String[][] cand)
             String[][] cand = new String[info.length][5];
@@ -16,7 +16,7 @@ class Solution {
 
             sum = 0;
             // 각 조건 별 지원자 체크
-            for(int i=0;i<cond.length;i++){
+            for(int i=0;i<cand.length;i++){
                 for(int j=0;j<cand[i].length;j++){
                     if(j==4){
                         int a = Integer.parseInt(cand[i][4]);
@@ -27,7 +27,7 @@ class Solution {
                         }
                     }
 
-                    if(!cond[j].equals(cand[i][j]) && !cond[j].equals("-")){
+                    else if(!cond[j].equals(cand[i][j]) && !cond[j].equals("-")){
                         break;
                     }
                 }
