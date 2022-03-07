@@ -19,6 +19,6 @@
 ![6](https://user-images.githubusercontent.com/73854324/157080137-36cc0e67-ae0f-480e-8018-371339d762ab.png)<br>
 내 신분을 증명해 줄 쿠키값을 admin 으로 변경해보았다.
 <br><br>
-![7](https://user-images.githubusercontent.com/73854324/157080143-00208c76-2026-419b-b0a6-b6b070349e6e.png)<br>
+![7](https://user-images.githubusercontent.com/73854324/157089553-e2a1f138-2bb8-4517-82c0-205da08ce1cf.png)<br>
 성공적으로 flag 값을 획득할 수 있었다.
 <br><br>
