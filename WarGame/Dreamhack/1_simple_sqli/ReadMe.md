@@ -26,7 +26,8 @@ password 는 아무거나 쳤다. (-- 에 의해 주석처리 될 것이다)
 그렇다면 대표적으로 guest 도 있으니, admin 계정도 있지 않을까?   
 <br><br>
 ![6](https://user-images.githubusercontent.com/73854324/157178739-e9af78e7-0c60-40cd-ac2b-936223f1b71f.png)<br>
-or 1 구문을 지우지 않아서, 첫번째 쿼리 결과문이 나왔다.   
+or 1 구문을 지우지 않아서, 첫번째 쿼리문의 결과가 된 모양이다.   
+즉, guest 계정이 admin 보다 먼저 조회돼서 guest 계정으로 로그인 되었다.   
 <br><br>
 ![8](https://user-images.githubusercontent.com/73854324/157178748-97a2b5fa-21ed-4d19-8f03-676f9a982a78.png)<br>
 제대로, userid 는 admin 이며, 비밀번호 검증은 하지 않겠다고 주석을 주입시켰다.   
