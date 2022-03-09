@@ -35,6 +35,7 @@ check_xss 함수의 경우,
 <br>
 설명이 많이 이상하긴 하지만,   
 flag 페이지에 넣은 파라미터 값을 memo 페이지에 출력할 수 있을 것 같다.   
+< 문자 또한 &lt 로 치환처리 되서, 아까 스크립트가 실행되지 않았던 모양이다.   
 <br><br>
 ![5](https://user-images.githubusercontent.com/73854324/157462869-7713c554-d0e3-4a79-a528-e2a70d3c0019.png)<br>
 <script>location.href="/memo?memo="+document.cookie;</script>   
