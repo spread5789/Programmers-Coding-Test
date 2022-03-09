@@ -46,3 +46,5 @@ flag 페이지에 넣은 파라미터 값을 memo 페이지에 출력할 수 있
 <br>
 flag 값은 쿠키에 담겨있었군!
 <br><br>
+상세하게 정리해주신 다른 분 글 계속 읽어보기   
+https://mokpo.tistory.com/59   
