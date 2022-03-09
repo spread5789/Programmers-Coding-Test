@@ -10,6 +10,10 @@
 XSS 공격이 가능 한 vuln(xss) page.   
 GET 방식으로 받은 memo 값을 추가시켜주는 memo 페이지.   
 <br><br>
+![1](https://user-images.githubusercontent.com/73854324/157478182-715d1a1e-fcac-4195-a459-17ea7e5ed3aa.png)<br>
+memo 페이지는 스크립트 문이 출력이 될 뿐, 실행되지는 않았다.   
+vuln 페이지만 필터링 처리가 되어있지 않은 듯 하다.   
+<br><br>
 ![3](https://user-images.githubusercontent.com/73854324/157462866-bd173135-5373-4196-82d7-2a25cb1309c6.png)<br>
 그리고 뭔가를 입력하는 flag 페이지가 있다.   
 <br><br>
