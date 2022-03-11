@@ -1,6 +1,5 @@
 Bee-Box
-==
-==
+--
 ![1](https://user-images.githubusercontent.com/73854324/157915812-8af6d3f1-174e-4eb5-9ded-68773412dfff.jpg)<br>
 웹 애플리케이션에서 자주 발생하는 취약점을 구축한 환경을 bWAPP(buggy Web Application)이라고 한다.   
 buggy란 버그의 형용사로서 말 그대로 웹 애플리케이션에 버그, 곧 취약점을 뜻한다.   
@@ -19,10 +18,8 @@ bee-box는 bWAPP 웹 사이트를 해킹하고 훼손하는 여러 가지 방법
 환경구축을 간단하게할 수 있고 적당한 취약점이 있는, 나같은 초보자에게 유용한 툴이다.   
 <br><br>
 Install
-==
-
+--
 ![2](https://user-images.githubusercontent.com/73854324/157917104-a0231b29-5def-4ccd-9f57-fbe9acd92801.png)<br>
-
 https://sourceforge.net/projects/bwapp/files/bee-box/
 직접 취약한 페이지를 구축하기 위해서는 bWAPP 를 설치하는데,(빨간색으로 체크해놓은 것)   
 설정까지 완료된 이미지를 받기 위해서 bee-box 를 설치한다.(bee-box_v1.6.7z)   
