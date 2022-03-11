@@ -27,6 +27,29 @@ https://sourceforge.net/projects/bwapp/files/bee-box/ <br>
 <br><br>
 ![3](https://user-images.githubusercontent.com/73854324/157917944-c73b8502-c87e-4648-a32c-023a7d328806.png)<br>
 용량은 1.134 GB 이며, 가상머신에 올리기 위해 VMWare 역시 필요하다.   
-
-
-
+<br><br>
+![4](https://user-images.githubusercontent.com/73854324/157922513-18b0bf1c-7234-4ae3-8ab7-a583a3482b90.png)<br>
+추가 후, 나는 메모리만 2GB 정도로 주고,   
+이미 설정이 끝난 이미지를 받은 것이기 때문에, I Copied It 버튼을 눌러주었다.   
+<br><br>
+![5](https://user-images.githubusercontent.com/73854324/157923203-d094c8c4-4092-479a-bfa3-fafebd747a07.png)<br>
+설치 초기에 키보드 설정이 벨기에 언어이기 때문에, 한국어로 변경이 필요하다.   
+<br><br>
+![6](https://user-images.githubusercontent.com/73854324/157923569-a1b52eec-3201-4b02-ab7c-1ff703191f7e.png)<br>
+![6](https://user-images.githubusercontent.com/73854324/157923712-e3a8a328-df27-45af-a399-d6dc13fa31d5.png)<br>
+한국어 추가 후, 벨기에 언어를 Remove 해주고, 한국어의 Default 를 체크해주자.   
+<br><br>
+![7](https://user-images.githubusercontent.com/73854324/157923905-d9be23c5-35aa-4c69-a8d6-a6117ee20c0c.png)<br>
+그 후, bWAPP - Start 를 실행시키면 웹 브라우저로 홈페이지가 하나 뜰 것이다.   
+기본 비밀번호는 다운받은 bee-box_v1.6 폴더 내부에 ReadMe.txt 파일로 적혀있다.   
+<br><br>
+![8](https://user-images.githubusercontent.com/73854324/157924148-e4194329-1a24-42ee-b669-84622d2efdf0.png)<br>
+로그인 하단에 보이는 low, medium, high 는 문제 난이도 라고 생각하면 된다.(보안 수준 설정)   
+<br><br>
+End
+==
+비박스 설치가 끝났지만, 웹 뿐만 아니라 터미널도 취약하다고 한다.   
+그리고 힌트가 없기 때문에 문제 푸는데 시간이 많이 걸린다.   
+하지만 이러한 시간이 나를 성장시킬 것이다.   
+<br>
+당연히 Kali Linux, Burp Suite 를 적절히 사용하여야 연습할 수 있다.   
