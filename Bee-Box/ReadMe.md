@@ -1,4 +1,3 @@
-<br>
 Bee Box
 ---
 ![1](https://user-images.githubusercontent.com/73854324/157915812-8af6d3f1-174e-4eb5-9ded-68773412dfff.jpg)<br>
