@@ -22,7 +22,11 @@ Install
 ==
 ![2](https://user-images.githubusercontent.com/73854324/157917104-a0231b29-5def-4ccd-9f57-fbe9acd92801.png)<br>
 https://sourceforge.net/projects/bwapp/files/bee-box/ <br>
-직접 취약한 페이지를 구축하기 위해서는 bWAPP 를 설치하는데,   
-설정까지 완료된 이미지를 받기 위해서 bee-box 를 설치한다.   
+직접 취약한 페이지를 구축하기 위해서는 bWAPP 를 설치하는데,(빨간색으로 체크해놓은 것)   
+설정까지 완료된 이미지를 받기 위해서 bee-box 를 설치한다.(bee-box_v1.6.7z)   
+<br><br>
+![3](https://user-images.githubusercontent.com/73854324/157917944-c73b8502-c87e-4648-a32c-023a7d328806.png)<br>
+용량은 1.134 GB 이며, 가상머신에 올리기 위해 VMWare 역시 필요하다.   
+
 
 
