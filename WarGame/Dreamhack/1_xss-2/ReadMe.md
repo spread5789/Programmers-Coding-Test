@@ -64,10 +64,12 @@ flag 페이지 역시 마찬가지.
 그리고 내 눈에 띄었던 점은, innerHTML 이었다.   
 <br><br>
 ![7](https://user-images.githubusercontent.com/73854324/158143444-e45def26-b631-4764-a7db-db36e3565a10.png)<br>
+
 ```
 https://developer.mozilla.org/en-US/docs/Web/API/Element/innerHTML
 https://www.w3.org/TR/2008/WD-html5-20080610/dom.html#innerhtml0
 ```
+
 innerHTML 을 사용할 경우, <script> 구문이 먹혔기 때문에 HTML5 로 들어오면서 막혔다고 한다.   
 innerHTML 과 비슷한 용도로 사용할 수 있는 innerText, textContent 가 있었다.   
 <br>
@@ -80,6 +82,7 @@ innerHTML 는 html 태그들이 모두 포함되어 결과물로 출력된다.
 3가지 차이점에 대해 포스팅해놓으신 글
 https://hianna.tistory.com/483
 ```
+
 ## 아무튼 XSS 스크립트를 실행시키기 위해서는 script 를 사용하지 않고 해야한다는 것을 알았다   
 ![8](https://user-images.githubusercontent.com/73854324/158143448-d5cb401e-7d48-4e52-9b85-aa3441f3e877.png)<br>
 그렇다면, 전에 잠깐 알고있었던 img 태그의 onerror 속성을 이용해보기로 했다.   
