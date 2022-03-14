@@ -33,9 +33,11 @@ innerHTML 과 비슷한 용도로 사용할 수 있는 innerText, textContent �
 textContext 는 원시 텍스트(only 텍스트)만 결과물로 출력된다.   
 innerText 는 html 태그들이 적용되지 않고 보이는 텍스트들만 결과물로 출력된다.   
 innerHTML 는 html 태그들이 모두 포함되어 결과물로 출력된다.   
-	https://hianna.tistory.com/483
+```
+https://hianna.tistory.com/483
+```
 <br>
-## 아무튼 XSS 스크립트를 실행시키기 위해서는 <script> 를 사용하지 않고 해야한다는 것을 알아냈다.   
+### 아무튼 XSS 스크립트를 실행시키기 위해서는 <script> 를 사용하지 않고 해야한다는 것을 알아냈다.   
 <br><br>
 ![8](https://user-images.githubusercontent.com/73854324/158143448-d5cb401e-7d48-4e52-9b85-aa3441f3e877.png)<br>
 그렇다면, 전에 잠깐 알고있었던 img 태그의 onerror 속성을 이용해보기로 했다.   
@@ -47,7 +49,9 @@ onerror 를 이용해서 alert 창의 실행을 성공했다.
 그렇다면, onerror 내부에 xss 스크립트를 넣어준다면 쿠키를 탈취할 수 있을 것이다.   
 <br><br>
 ![10](https://user-images.githubusercontent.com/73854324/158143450-da728bc0-1620-4bcf-8169-f4b0113832cb.png)<br>
-	<img src="/" onerror="location.href='/memo?memo='+document.cookie">
+```
+<img src="/" onerror="location.href='/memo?memo='+document.cookie">
+```
 <br>
 ![11](https://user-images.githubusercontent.com/73854324/158143451-5c204d54-62b0-46d1-bdbe-0da2926dad37.png)<br>
 성공적으로 되었다.   
