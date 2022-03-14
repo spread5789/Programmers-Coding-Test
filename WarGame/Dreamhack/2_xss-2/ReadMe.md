@@ -12,7 +12,7 @@ xss-1 문제를 풀어보았으니, 바로 vuln 페이지로 들어갔는데,
 제대로 스크립트가 param 으로 전달되었음에도 팝업창이 뜨지 않았다.   
 <br><br>
 ![4](https://user-images.githubusercontent.com/73854324/158143433-127f17f5-fcad-4944-89eb-3c1b90461149.png)<br>
-note 페이지로 들어갔따.   
+note 페이지로 들어갔다.   
 딱히 xss-1 문제랑은 다를 바 없어보인다.   
 <br><br>
 ![5](https://user-images.githubusercontent.com/73854324/158143436-f3482d1a-6b92-43f5-bbc0-897f7b8fd830.png)<br>
@@ -25,7 +25,9 @@ flag 페이지 역시 마찬가지.
 그리고 내 눈에 띄었던 점은, innerHTML 이었다.   
 <br><br>
 ![7](https://user-images.githubusercontent.com/73854324/158143444-e45def26-b631-4764-a7db-db36e3565a10.png)<br>
-	https://developer.mozilla.org/en-US/docs/Web/API/Element/innerHTML
+```
+https://developer.mozilla.org/en-US/docs/Web/API/Element/innerHTML
+```
 innerHTML 을 사용할 경우, <script> 구문이 먹혔기 때문에 HTML5 로 들어오면서 막혔다고 한다.   
 innerHTML 과 비슷한 용도로 사용할 수 있는 innerText, textContent 가 있었다.   
 <br>
@@ -34,10 +36,11 @@ textContext 는 원시 텍스트(only 텍스트)만 결과물로 출력된다.
 innerText 는 html 태그들이 적용되지 않고 보이는 텍스트들만 결과물로 출력된다.   
 innerHTML 는 html 태그들이 모두 포함되어 결과물로 출력된다.   
 ```
+
 https://hianna.tistory.com/483
 ```
 <br>
-### 아무튼 XSS 스크립트를 실행시키기 위해서는 <script> 를 사용하지 않고 해야한다는 것을 알아냈다.   
+**아무튼 XSS 스크립트를 실행시키기 위해서는 <script> 를 사용하지 않고 해야한다는 것을 알아냈다.**   
 <br><br>
 ![8](https://user-images.githubusercontent.com/73854324/158143448-d5cb401e-7d48-4e52-9b85-aa3441f3e877.png)<br>
 그렇다면, 전에 잠깐 알고있었던 img 태그의 onerror 속성을 이용해보기로 했다.   
