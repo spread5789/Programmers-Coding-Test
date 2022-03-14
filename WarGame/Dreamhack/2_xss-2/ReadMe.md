@@ -40,7 +40,7 @@ innerHTML 는 html 태그들이 모두 포함되어 결과물로 출력된다.
 https://hianna.tistory.com/483
 ```
 <br>
-### 아무튼 XSS 스크립트를 실행시키기 위해서는 <script> 를 사용하지 않고 해야한다는 것을 알아냈다.
+## 아무튼 XSS 스크립트를 실행시키기 위해서는 <script> 를 사용하지 않고 해야한다는 것을 알아냈다.
 <br><br>
 ![8](https://user-images.githubusercontent.com/73854324/158143448-d5cb401e-7d48-4e52-9b85-aa3441f3e877.png)<br>
 그렇다면, 전에 잠깐 알고있었던 img 태그의 onerror 속성을 이용해보기로 했다.   
