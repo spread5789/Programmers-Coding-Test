@@ -26,6 +26,7 @@ flag 페이지 역시 마찬가지.
 <br><br>
 ![7](https://user-images.githubusercontent.com/73854324/158143444-e45def26-b631-4764-a7db-db36e3565a10.png)<br>
 ```
+https://developer.mozilla.org/en-US/docs/Web/API/Element/innerHTML
 https://www.w3.org/TR/2008/WD-html5-20080610/dom.html#innerhtml0
 ```
 innerHTML 을 사용할 경우, <script> 구문이 먹혔기 때문에 HTML5 로 들어오면서 막혔다고 한다.   
