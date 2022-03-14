@@ -57,7 +57,7 @@ onerror 를 이용해서 alert 창의 실행을 성공했다.
 ```
 
 
-![11](https://user-images.githubusercontent.com/73854324/158143451-5c204d54-62b0-46d1-bdbe-0da2926dad37.png)<br>
+<br><br>![11](https://user-images.githubusercontent.com/73854324/158143451-5c204d54-62b0-46d1-bdbe-0da2926dad37.png)<br>
 성공적으로 되었다.   
 이제 memo 페이지로 돌아가서 쿠키값을 확인해보자.   
 (쿠키값에 flag 가 저장되어있고, 제대로 탈취되었는지 보러 가보자)   
