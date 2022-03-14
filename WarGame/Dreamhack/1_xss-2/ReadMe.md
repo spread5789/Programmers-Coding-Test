@@ -13,10 +13,10 @@
 ![2](https://user-images.githubusercontent.com/73854324/158157261-40fe18a6-5f29-481a-9b29-9d59aa61071c.png)<br>
 check_xss 함수의 내용은 이러하다.(이미지 하단 부분)   
 입력받은 파라미터와 쿠키값을 가지고, read_url 함수를 통해서 flag 값을 가진 봇이 링크에 접속한다.   
-read_url 함수에서는 웹드라이버를 통해서 flag 값을 쿠키로 가진 채 해당 url에 접속하게 된다.<br>
-그렇다면, 봇이 쿠키값을 가진 채 접속하게만 하고 요청 헤더의 쿠키값만 확인하면 된다.
-==
-<br>
+read_url 함수에서는 웹드라이버를 통해서 flag 값을 쿠키로 가진 채 해당 url에 접속하게 된다.   
+<br><br>
+그렇다면, 봇이 쿠키값을 가진 채 접속하게만 하고 요청 헤더의 쿠키값만 확인하면 된다.   
+<br><br>
 dreamhack 사이트 내에는, 여러 툴들이 존재한다.   
 <br><br>
 ![0](https://user-images.githubusercontent.com/73854324/158157253-84b4ea82-9f9a-4c46-8ed8-262b75b1cc55.png)<br>
