@@ -9,14 +9,16 @@
 ![1](https://user-images.githubusercontent.com/73854324/158157258-6ca79698-05c7-4ddf-8682-8f3f38e8b651.png)<br>
 코드를 보면, 우리는 먼저 flag 페이지에 POST 방식으로 요청을 보낸다.   
 그 후 check_xss 함수가 실행된다. (뒤 코드를 보면 결과를 알겠지만, 쿠키 값이 없다면 wrong?? 이 뜰 것이다.)   
+<br><br>
 ![2](https://user-images.githubusercontent.com/73854324/158157261-40fe18a6-5f29-481a-9b29-9d59aa61071c.png)<br>
-check_xss 함수의 내용은 이러하다.(하단)   
+check_xss 함수의 내용은 이러하다.(이미지 하단 부분)   
 입력받은 파라미터와 쿠키값을 가지고, read_url 함수를 통해서 flag 값을 가진 봇이 링크에 접속한다.   
 read_url 함수에서는 웹드라이버를 통해서 flag 값을 쿠키로 가진 채 해당 url에 접속하게 된다.<br>
-## 그렇다면, 봇이 쿠키값을 가진 채 접속하게만 하고 요청 헤더의 쿠키값만 확인하면 된다.   
+그렇다면, 봇이 쿠키값을 가진 채 접속하게만 하고 요청 헤더의 쿠키값만 확인하면 된다.
+==
 <br>
-dreamhack 사이트 내에는, 여러 툴들이 존재한다. 
-<br><br>  
+dreamhack 사이트 내에는, 여러 툴들이 존재한다.   
+<br><br>
 ![0](https://user-images.githubusercontent.com/73854324/158157253-84b4ea82-9f9a-4c46-8ed8-262b75b1cc55.png)<br>
 https://tools.dreamhack.games/main   
 해당 링크 내 Request Bin 은, 임의로 웹서버를 만든 것처럼 가상으로 방문자들의 정보를 알 수 있다.   
