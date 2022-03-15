@@ -1,11 +1,6 @@
 Bee Box
 ---
-<<<<<<< HEAD
-
 <br>
-=======
-<br><br>
->>>>>>> parent of 65e097f (Update ReadMe.md)
 ![1](https://user-images.githubusercontent.com/73854324/157915812-8af6d3f1-174e-4eb5-9ded-68773412dfff.jpg)
 <br>
 웹 애플리케이션에서 자주 발생하는 취약점을 구축한 환경을 bWAPP(buggy Web Application)이라고 한다.   
@@ -26,7 +21,6 @@ bee-box는 bWAPP 웹 사이트를 해킹하고 훼손하는 여러 가지 방법
 
 Install
 ---
-
 ![2](https://user-images.githubusercontent.com/73854324/157917104-a0231b29-5def-4ccd-9f57-fbe9acd92801.png)<br>
 https://sourceforge.net/projects/bwapp/files/bee-box/
 직접 취약한 페이지를 구축하기 위해서는 bWAPP 를 설치하는데,(빨간색으로 체크해놓은 것)   
