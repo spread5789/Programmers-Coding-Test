@@ -23,8 +23,8 @@ Install
 ---
 ![2](https://user-images.githubusercontent.com/73854324/157917104-a0231b29-5def-4ccd-9f57-fbe9acd92801.png)
 <br>
-
 https://sourceforge.net/projects/bwapp/files/bee-box/
+<br>
 직접 취약한 페이지를 구축하기 위해서는 bWAPP 를 설치하는데,(빨간색으로 체크해놓은 것)   
 설정까지 완료된 이미지를 받기 위해서 bee-box 를 설치한다.(bee-box_v1.6.7z)   
 <br><br>
